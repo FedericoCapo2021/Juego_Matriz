@@ -14,7 +14,10 @@ void cargarDireccion(int, int, int , int&, int&, int&, int&);//carga las coorden
 void seleccionColor(int &);//Muestra pantalla para elegir color y guarda el ingreso en una variable para despues ser usada
 void ponerNulo (int [][6], int , int , int , int , int , int );
 void sumarPuntos (int [][6], int &, int , int , int , int , int , int);
-void mostrarEstadisticas (int [], string[]);
+void mostrarEstadisticas (int [], string  [] , int []);
+void ordenarVector(int [], int , int []);
+void cargarEstadisticas (int [], int  , int , string [] , char []);
+void nombre(string [] );
 bool validarOperacion(int [][6], int, int, int, int, int, int, char);
 #endif // FUNCIONES_H_INCLUDED
 

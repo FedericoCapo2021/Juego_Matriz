@@ -171,7 +171,17 @@ void comienzoJuego(int mn[][6], int &p , int &pts){
 
 bool validarDatos(int mc[][6], int x, int y, int f2, int c2, int f3, int c3){
 
+   if(x > 5 || y > 5){
+        return false;
+    }
 
+    if(f2 > 5 || c2 > 5){
+        return false;
+    }
+
+    if(f3 > 5 || f3 > 5){
+        return false;
+    }
 
 
 
@@ -290,9 +300,72 @@ void ponerNulo (int m[][6], int f , int c , int f2 , int c2 , int f3 , int c3 ){
 
 
 
-void mostrarEstadisticas (int vec[], string nombres[] ){
+void mostrarEstadisticas (int vec[], string nombres[] , int i[] ){
         cout << "Jugador         Puntaje" << endl << endl;
-        cout << nombres [0]  << "         " << vec [0] << endl << endl;
+        cout << nombres [i[0]]  << "         " << vec [0] << endl << endl;
+        cout << nombres [i [1]]  << "         " << vec [1] << endl << endl;
+        cout << nombres [i [2]]  << "         " << vec [2] << endl << endl;
+        cout << nombres [i [3]]  << "         " << vec [3] << endl << endl;
+        cout << nombres [i [4]]  << "         " << vec [4] << endl << endl;
+
+
+
+
+
+        rlutil::anykey();
+        rlutil::cls();
+
+}
+
+
+
+void cargarEstadisticas (int  p[] , int  v, int tam , string c[] , char n[]){
+       int i;
+       for (i=0 ; i<tam ; i++){
+            if (p[i]==0){
+                p[i]= v;
+                c[i]=n;
+                break;
+            }
+
+       }
+
+}
+
+
+
+void ordenarVector(int v[], int t , int n[]){
+    int i, x, aux;
+    for(i = 0; i<t; i++){
+        for(x=0; x<t-1; x++){
+            if(v[x] < v[x+1]){
+                aux = v[x+1];
+                v[x+1] = v [x];
+                v[x]= aux;
+                aux = n[i+1];
+                n[i+1] = n[i];
+                n [x] = aux;
+
+            }
+        }
+
+    }
+
+}
+
+
+
+void nombre(string m[]){
+    char v[30] = {"No hay datos"};
+    int i, x;
+    for(i=0; i<10; i++){
+        for(x=0; x<30; x++){
+
+            m[i]= v;
+
+        }
+
+    }
 
 
 }

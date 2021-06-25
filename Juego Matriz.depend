@@ -1,0 +1,109 @@
+# depslib dependency file v1.0
+1624315946 source:c:\users\josel\onedrive\escritorio\projecto 2do parcial\juego matriz\main.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+	"funciones.h"
+	"rlutil.h"
+
+1624315759 source:c:\users\josel\onedrive\escritorio\projecto 2do parcial\juego matriz\funciones.cpp
+	<iostream>
+	"funciones.h"
+	"rlutil.h"
+	"matrizcolor.h"
+
+1624315892 c:\users\josel\onedrive\escritorio\projecto 2do parcial\juego matriz\funciones.h
+
+1571584339 c:\users\josel\onedrive\escritorio\projecto 2do parcial\juego matriz\rlutil.h
+	<iostream>
+	<string>
+	<cstdio>
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<conio.h>
+	<termios.h>
+	<unistd.h>
+	<sys/ioctl.h>
+	<sys/types.h>
+	<sys/time.h>
+
+1624311244 c:\users\josel\onedrive\escritorio\projecto 2do parcial\juego matriz\matrizcolor.h
+
+1624314855 source:c:\users\josel\onedrive\escritorio\projecto 2do parcial\juego matriz\matrizcolor.cpp
+	<iostream>
+	"rlutil.h"
+	"matrizcolor.h"
+
+1624552221 source:c:\users\sonypc\documents\github\juego-matriz\funciones.cpp
+	<iostream>
+	"funciones.h"
+	"rlutil.h"
+	"matrizcolor.h"
+
+1624553023 c:\users\sonypc\documents\github\juego-matriz\funciones.h
+
+1624491586 c:\users\sonypc\documents\github\juego-matriz\rlutil.h
+	<iostream>
+	<string>
+	<cstdio>
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<conio.h>
+	<termios.h>
+	<unistd.h>
+	<sys/ioctl.h>
+	<sys/types.h>
+	<sys/time.h>
+
+1624496273 c:\users\sonypc\documents\github\juego-matriz\matrizcolor.h
+
+1624552221 source:c:\users\sonypc\documents\github\juego-matriz\main.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+	"funciones.h"
+	"rlutil.h"
+
+1624496914 source:c:\users\sonypc\documents\github\juego-matriz\matrizcolor.cpp
+	<iostream>
+	"rlutil.h"
+	"matrizcolor.h"
+
+1624594620 source:c:\users\lulit\downloads\juego-matriz-main\main.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+	"funciones.h"
+	"rlutil.h"
+
+1624594620 c:\users\lulit\downloads\juego-matriz-main\funciones.h
+
+1624554198 c:\users\lulit\downloads\juego-matriz-main\rlutil.h
+	<iostream>
+	<string>
+	<cstdio>
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<conio.h>
+	<termios.h>
+	<unistd.h>
+	<sys/ioctl.h>
+	<sys/types.h>
+	<sys/time.h>
+
+1624554198 source:c:\users\lulit\downloads\juego-matriz-main\matrizcolor.cpp
+	<iostream>
+	"rlutil.h"
+	"matrizcolor.h"
+
+1624554198 c:\users\lulit\downloads\juego-matriz-main\matrizcolor.h
+
+1624592948 source:c:\users\lulit\downloads\juego-matriz-main\funciones.cpp
+	<iostream>
+	"funciones.h"
+	"rlutil.h"
+	"matrizcolor.h"
+

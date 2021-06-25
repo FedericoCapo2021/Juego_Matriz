@@ -13,10 +13,10 @@ int main()
     int opcion, pilas, color, puntaje;
     int matrizNumeros [6][6];
     char Usuario [30];
-    cargarMatrizNum(matrizNumeros, 6);
     int vecPuntaje [tam] = {};
     string vecNombres [tam] ;
-    vecNombres [0] = {'Jugador'};
+    nombre(vecNombres);
+    int vecIndice [tam] = {0 , 1 , 2 , 3 , 4 , 5 , 6 , 7 ,8 ,9};
 
 
 
@@ -53,6 +53,7 @@ int main()
         {
         case 1:
             pilas = 3;
+            cargarMatrizNum(matrizNumeros, 6);
             puntaje = 0;
             system("cls");
             cargarDatos(Usuario);
@@ -70,11 +71,14 @@ int main()
             rlutil::locate(35,15);
             cout << "Lo siento, te quedaste sin pilas :( " ;
             rlutil::anykey();
-
+            rlutil::cls();
+            cargarEstadisticas(vecPuntaje, puntaje, tam , vecNombres , Usuario);
+            ordenarVector(vecPuntaje, tam , vecIndice);
 
             break;
         case 2:
-            mostrarEstadisticas (vecPuntaje , vecNombres);
+            rlutil::cls();
+            mostrarEstadisticas (vecPuntaje , vecNombres , vecIndice);
             break;
         case 3:
             break;
@@ -82,6 +86,20 @@ int main()
             break;
 
         }
+ cout <<"        *****************************"      <<endl;
+    cout <<"       *                             *"      <<endl;
+    cout <<"       *          MATRIX             *"      <<endl;
+    cout <<"       *                             *"      <<endl;
+    cout <<"        *****************************"      <<endl<<endl<<endl;
+
+
+    cout <<"----------------------"<<endl;
+    cout <<"1- Jugar"<<endl;
+    cout <<"2- Estadisticas"<<endl;
+    cout <<"3- Creditos"<<endl;
+    cout <<"0- Salir"<<endl;
+
+    cout <<"----------------------"<<endl;
 
         cout <<"Ingrese una opcion: "<<endl;
         cin >>opcion;
